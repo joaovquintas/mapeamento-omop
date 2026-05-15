@@ -1,0 +1,39 @@
+{
+  "index_settings": {
+    "docstore_compression": "lz4",
+    "docstore_blocksize": 16384
+  },
+  "segments": [
+    {
+      "segment_id": "07b0a964-1923-4aa7-8298-8531032e8d84",
+      "max_doc": 14886,
+      "deletes": null
+    }
+  ],
+  "schema": [
+    {
+      "name": "102",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "milvus_tokenizer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "doc_id",
+      "type": "i64",
+      "options": {
+        "indexed": false,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": false
+      }
+    }
+  ],
+  "opstamp": 14887
+}
